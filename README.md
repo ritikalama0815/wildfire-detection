@@ -45,16 +45,16 @@ wildfire-detection/
 
 ---
 
-## Preprocessing Pipeline
+## Preprocessing 
 
-1. **Downloading** from Kaggle using `kagglehub`
-2. **Unpacking** and placing into `unprocessed_data`
-3. **Augmenting** underrepresented classes using `albumentations`
-4. **Resizing** images to `224x224`
-5. **Splitting** into train/val/test using a controlled script
-6. **Saving** final data in `processed_data/`
+1. **Transform both train and val dataset**:
+      - Resize
+      - randomly flip,
+      - randomly rotate,
+      - apply color jitter, and
+      - normalize to [0.485, 0.456, 0.406], [0.229, 0.224, 0.225]
 
-All preprocessing is done **once**, so training can begin immediately.
+Training begins after transformation and preprocessings. 
 
 ---
 
