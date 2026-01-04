@@ -1,0 +1,6 @@
+torch
+torchvision
+sklearn.metrics
+matplotlib
+seaborn
+timm
