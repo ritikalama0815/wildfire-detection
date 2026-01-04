@@ -25,11 +25,10 @@ wildfire-detection/
 ├── Wildfire/              
 │   ├── train/                   # Training set with class folders
 │   ├── val/                     # Validation set with class folders
-│
-├── pth_files/                  # Trained model weights (.pth) with best results
 ├── results/                    # Evaluation results (confusion matrices, metrics)
 ├── diagrams/                    # confusion matrix and other plits
 │
+├──main_paper.pdf
 ├── proxy_se_eff
 │
 └── README.md                          # documentation
