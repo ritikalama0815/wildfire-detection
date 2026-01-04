@@ -1,6 +1,6 @@
-torch
-torchvision
-sklearn.metrics
-matplotlib
-seaborn
-timm
+torch 
+torchvision 
+timm  
+matplotlib 
+seaborn 
+scikit-learn
