@@ -26,11 +26,9 @@ wildfire-detection/
 │   ├── train/                   # Training set with class folders
 │   ├── val/                     # Validation set with class folders
 ├── results/                    # Evaluation results (confusion matrices, metrics)
-├── diagrams/                    # confusion matrix and other plits
-│
-├──main_paper.pdf
+├── diagrams/                    # confusion matrix and other plots
+├── main_paper.pdf
 ├── proxy_se_eff
-│
 └── README.md                          # documentation
 ```
 
@@ -63,7 +61,7 @@ Training begins after transformation and preprocessings.
 Install libraries:
 
 ```bash
-pip install torch torchvision timm  matplotlib seaborn scikit-learn
+pip install requirements.txt
 ```
 
 Use a virtual environment for reproducibility (see `projectvenv/`).
@@ -75,6 +73,6 @@ Use a virtual environment for reproducibility (see `projectvenv/`).
 
 * Dataset: https://www.kaggle.com/datasets/abdelghaniaaba/wildfire-prediction-dataset
 * Architecture Base: EfficientNet, SE-Net
-* Libraries: PyTorch, Timm, Matplotlib
+* Libraries: PyTorch, Timm, Matplotlib, seaborn, scikit-learn
 
 ---
